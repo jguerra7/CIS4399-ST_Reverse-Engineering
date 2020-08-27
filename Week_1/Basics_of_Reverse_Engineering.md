@@ -1,11 +1,11 @@
 
-Week 1 notes: 
+# Week 1 notes: 
 
-Setup a Virtual  Environment
+## Setup a Virtual  Environment
 
 Reverse engineering basics
 
-Programming in C
+Programming in **C**
 
 Debugging 
 
