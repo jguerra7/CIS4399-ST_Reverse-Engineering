@@ -1,5 +1,5 @@
 
-# Week 1 notes: 
+# Week 1 notes: (Markdown syntax: https://www.markdownguide.org/basic-syntax/)
 
 ## Setup a Virtual  Environment
 
