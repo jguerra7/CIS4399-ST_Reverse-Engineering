@@ -35,3 +35,12 @@ extra commands:
 2. IDA pro ( we will be using the free demo version)
 
 
+# TOOLS used in the Crackme0x00a demo
+1. file command
+2. xxd command
+3. rabin2 command
+4. strings command 
+5. ltrace command 
+
+
+
