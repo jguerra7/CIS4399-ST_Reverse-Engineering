@@ -53,7 +53,7 @@ two words is a double word (DWORD)
 two DWORDS is a quadword (QWORD)
 
 ENDIANNESS 
-
+```
 LSB - least significant bit
 
 MSB - most significant bit
@@ -65,13 +65,13 @@ big endian
 
 little endian
 55 LSB and 10 MSB
-
+```
 ## Assembly sections
-.text secion
+* .text secion
 
 The .text section, also known as the code segment, basically corresponds to the .text portion of the binary executable file. It contains the machine instructions to get the task done. This section is marked as readable and executable and will cause an access violation if a write attempt is made. The size is fixed at runtime when the process is first loaded
 
-.data section
+* .data section
 The .data section is used to store global initialized variables, such as
 ```
 int a = 0; 
@@ -79,16 +79,16 @@ int a = 0;
 ```
 The size of this section is fixed at runtime. It should only be marked as readable.
 
-.bss section
+* .bss section
 
 The below stack section (.bss) is used to store certain types of global uninitialized variables, such as
-
+```
 int a; 
-
+```
 The size of this section is fixed at runtime. This segment needs to be readable and writable, but should not be executable.
 in C programming: malloc(), realloc() and free() functions. 
 
-heap section 
+* heap section 
 The heap section is used to store dynamically allocated variables and grows from the lower-addressed memory to the higher-addressed memory
 
 **pointers**
@@ -112,18 +112,19 @@ AT&T handles memory references differently than NASM.
 commands: operands
 instructions on what to do with the data
 mov :   mov <dest>,<source>    move eax, 51h ; comment
-      
+```      
       mov eax, 1234h  ; store teh value of 1234 (hex) into eax
       mov cs , ax   ; then copy the value of AX into CS.
-  
-  
+```
+### Other common operands 
+```  
 add
 sub
 jmp
 jne
 cmp
 test
-
+```
 
 
 ## Assembly File Structure
@@ -133,6 +134,31 @@ test
 ## Debugging with GDB
 
 ## Disassembly with GDB
+
+
+## Convert number 42(base 10) to binary (base 2)?
+101010
+
+## 0x70 in hexidecimal, converted to an ASCII meaning? 
+'p'
+
+
+## bDNhcm5fdGgzX3IwcDM1
+l3arn_th3_r0p35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
