@@ -81,7 +81,7 @@ _start:
     dec    bl
     dec    [bx]
     
-    ```
+```
     STACK has basically two operations PUSH and POP
     Push onto a stack and Pop off the stack
     
