@@ -87,7 +87,10 @@ _start:
     
 LIFO - last in first out
 
-    
+NASM RESOURCES:
+LINK https://asmtutor.com/
+
+
     
     
     
